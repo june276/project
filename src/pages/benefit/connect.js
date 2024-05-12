@@ -8,7 +8,7 @@ const connect = () => {
 	}
 
 	mongoose.connect(connectionURL, {
-		dbName: "benefitdb",
+		dbName: "playtopia",
 	}).then(() => {
 		console.log('Complete connection to benefitdb');
 	}).catch((err) => {
